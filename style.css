@@ -1,0 +1,339 @@
+
+/* Buttons */
+.btn-primary, .btn-secondary, .btn-danger {
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover,
+.btn-danger:hover {
+    transform: scale(1.03);
+}
+
+/* Back button (universal) */
+.back-btn {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 8px 16px;
+    background-color: #6c757d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.back-btn:hover {
+    background-color: #5a6268;
+}
+
+
+/* ----------------------------------
+   ADD BOOK PAGE
+----------------------------------*/
+.add-book {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    padding: 30px;
+}
+
+.add-book-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+.add-book-title {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+/* Flash message */
+p.add-book-msg {
+    padding: 10px;
+    background-color: #d1ecf1;
+    color: #0c5460;
+    border: 1px solid #bee5eb;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Form styling */
+.add-book-msg label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #555555;
+}
+
+.add-book-msg input[type="text"],
+.add-book-msg input[type="number"],
+.add-book-msg select {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.add-book-msg input[type="submit"] {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-book-msg input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+/* ----------------------------------
+   FINES PAGE
+----------------------------------*/
+.fines-page {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    padding: 30px;
+}
+
+.fines-page h2 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.fines-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.fines-table th,
+.fines-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.fines-table th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.fines-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.fines-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.fines-table button {
+    padding: 6px 12px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.fines-table button:hover {
+    background-color: #218838;
+}
+
+/* member page */
+.add-member {
+    background-color: #f5f5f5;
+    padding: 30px;
+}
+
+.add-member-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.add-member h2 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.add-member .form-control {
+    border-radius: 5px;
+}
+
+/* member list */
+.members-list {
+    background-color: #f5f5f5;
+    padding: 30px;
+}
+
+.members-list h2 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.members-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.members-table th,
+.members-table td {
+    padding: 10px 14px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.members-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.members-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.members-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.members-table a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 500;
+}
+.members-table a:hover {
+    text-decoration: underline;
+}
+
+
+/*  Issued Books Page */
+.issued-books {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    padding: 30px;
+}
+
+.issued-books h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.issued-books .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Table Styling */
+.issued-books-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.issued-books-table th,
+.issued-books-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.issued-books-table th {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: 600;
+}
+
+.issued-books-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.issued-books-table tr:hover {
+    background-color: #eef4ff;
+}
+
+/* Status Labels */
+.status {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.status.issued {
+    background-color: #ffc107;
+    color: #000;
+}
+
+.status.returned {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.status.overdue {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+/* Back Button */
+.back-btn {
+    display: inline-block;
+    margin-bottom: 15px;
+    padding: 8px 16px;
+    background-color: #6c757d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.back-btn:hover {
+    background-color: #5a6268;
+}
+
+
+/* --cart icon -- */
+.cart-icon {
+    position: absolute;
+    top: 103px;
+    right: 40px;
+    font-size: 1.8rem;
+    color: #007bff;
+    text-decoration: none;
+}
+.cart-icon:hover {
+    color: #0056b3;
+}

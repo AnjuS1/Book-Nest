@@ -1,0 +1,132 @@
+
+/* admin dashboard */
+.admin-dashboard {
+    background-color: #f5f5f5;
+}
+
+.admin-dashboard-card {
+    text-decoration: none;
+    color: inherit;
+}
+
+.admin-dashboard-card .card {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.admin-dashboard-card:hover .card {
+    transform: scale(1.03);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* member-list*/
+.member-list h2 {
+    color: black !important;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.searchInput {
+    margin-left: auto;
+}
+
+
+/* edit categories */
+.admin-page {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+}
+
+.admin-card-category {
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    background-color: #fff;
+}
+
+.admin-card-category h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+}
+
+.category-alert {
+    margin-top: 15px;
+}
+
+/* add category Page */
+.add-category {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    padding: 20px;
+}
+
+.add-category-container {
+    max-width: 500px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.add-category-msg {
+    background: #d1ecf1;
+    color: #0c5460;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.add-category-input, .add-category-button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.add-category-button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.add-category-button:hover {
+    background: #0056b3;
+}
+
+.add-category-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* ADD MEMBER PAGE */
+.add-member {
+    background-color: #f5f5f5;
+    padding: 30px;
+}
+
+.add-member-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.add-member h2 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.add-member .form-control {
+    border-radius: 5px;
+}
+
