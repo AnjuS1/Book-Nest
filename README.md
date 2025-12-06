@@ -1,5 +1,5 @@
 # Book-Nest
-Library management system
+Library management system using php and mysql
 
 # Setup Instructions
 
